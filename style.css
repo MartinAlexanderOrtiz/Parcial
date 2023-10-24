@@ -1,0 +1,104 @@
+*{background-color: lightblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 450px;
+}
+
+.Btn1{
+font-size: 20px;
+height: 50px;
+width: 200px;
+background-color: goldenrod;
+
+}
+.Btn1:hover{
+    color: red;
+   height: 300px;
+   width: 300px;
+   rotate: 360deg;
+   transition: all 2s;
+}
+.Btn2{
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: goldenrod;
+}
+.Btn2:hover{
+    color: blue;
+    height: 300px;
+    width: 300px;
+    rotate: 360deg;
+    transition: all 3s;
+}
+
+.Btn3{
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: goldenrod;
+}
+.Btn3:hover{
+    color: palegoldenrod;
+    height: 300px;
+    width: 300px;
+    rotate: 360deg;
+    transition: all 3s;
+}
+
+.Btn4{
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: goldenrod;    
+}
+.Btn4:hover{
+    color: brown;
+    height: 300px;
+    width: 300px;
+    rotate: 360deg;
+    transition: all 3s;
+}
+
+.Btn5{
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: goldenrod;    
+}
+.Btn5:hover{
+    color: white;
+    height: 300px;
+    width: 300px;
+    rotate: 360deg;
+    transition: all 3s;
+}
+
+.Btn6{
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: goldenrod;    
+}
+.Btn6:hover{
+    color: burlywood;
+    height: 300px;
+    width: 300px;
+    rotate: 360deg;
+    transition: all 3s;
+}
+
+.Btn7{
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: goldenrod;    
+}
+.Btn7:hover{
+    color: red ;
+    color: green;
+    height: 300px;
+    width: 300px;
+    rotate: 360deg;
+    transition: all 3s;
+}
+

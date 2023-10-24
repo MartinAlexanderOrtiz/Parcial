@@ -1,0 +1,113 @@
+*{
+    background-color: rgb(83, 17, 17);
+    font-size: 40px;
+    text-shadow: 5px 5px gold;
+}
+h1{background-image:url(Images/Juan_Moreira-916178084-large.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-color: red;
+    padding: 80px 40px;
+    margin: 40px 0px;
+    height: 500px;
+    text-align: center;
+    font-weight: 600;
+    animation: Anim 1s 5;}
+
+    p{  animation: Anim 1s 5;}
+
+.Anim{
+    animation: anim 1s 5;
+}
+@keyframes Anim{
+    0%{
+    color: black;
+    }
+    15%{
+        opacity: 0;
+    }
+    30%{
+        color:yellow;
+        opacity: 1;
+    }
+    45%{
+        opacity:0;
+    }
+    60%{
+        color:red;
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        color: black;
+    }
+}
+
+.A{
+    display: grid;
+    grid-template-columns:repeat(4,300px);
+      grid-template-columns:300px 300px 300px 300px; 
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(2,250px);
+      grid-template-areas: 
+      
+      " P1 P2 P3";
+      align-items: center;
+      grid-gap: 150px ;
+}
+
+.B{
+    background-color: crimson;
+    height: 200px;
+    width: 400px;
+    border: 5px;
+    border-color: gold;
+    border-style: solid;
+}
+
+
+.P1{
+    font-size: 50px;
+    height: 400px;
+    width: 800px;
+    background-color: goldenrod;
+    
+    }
+    .P1:hover{
+        color: blue;
+        height: 800px;
+        width: 800px;
+       rotate: 360deg;
+       transition: all 2s;
+    }
+    .P2{
+        font-size: 50px;
+        height: 400px;
+        width: 800px;
+        background-color: goldenrod;
+    }
+    .P2:hover{
+        color: red;
+        height: 800px;
+        width: 800px;
+        rotate: 360deg;
+        transition: all 3s;
+    }
+    
+    .P3{
+        font-size: 50px;
+        height: 400px;
+    width: 800px;
+        background-color: goldenrod;
+    }
+    .P3:hover{
+        color: palegoldenrod;
+        height: 800px;
+        width: 800px;
+        rotate: 360deg;
+        transition: all 3s;
+    }
